@@ -8,3 +8,38 @@ function myage(){
     console.log('hell');
 }
 myage();
+
+// Fibonacci Series Up to n Terms
+
+const num = 7;
+let n1 = 0, n2 = 1, nextTerm;
+
+for (let i = 0; i < num; i++) {
+    // console.log(n1);   
+    nextTerm = n1+n2;
+    n2 =n1;
+    n1 =nextTerm;
+    
+}
+
+// calculate the repeated max number of chars in string
+
+function repeatedChars(str){
+    var charNum = {};
+    for(char of str){
+        if(charNum[char]){
+            charNum[char]++;
+        }else{
+            charNum[char] = 1;
+        }
+    }
+    var repeatedChar = Object.values(charNum);
+    var highestRepeatedChar = Math.max(...repeatedChar);
+    return highestRepeatedChar;
+
+}
+
+// console.log(repeatedChars('aaaaaaasdsadsadasdasdaa'));
+
+
+
