@@ -25,7 +25,7 @@ for (let i = 0; i < num; i++) {
 // calculate the repeated max number of chars in string
 
 function repeatedChars(str){
-    var charNum = {};
+   ; var charNum = {};
     for(char of str){
         if(charNum[char]){
             charNum[char]++;
@@ -140,3 +140,11 @@ for (let fnum = 1; fnum <=10; fnum++) {
     
 }
 
+// functions 
+
+function sum() {
+    let a = 10; let b = 12;
+    let total = a+b;
+    return total;
+}
+console.log(sum()); 
