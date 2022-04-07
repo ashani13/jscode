@@ -34,5 +34,16 @@ const arrowFun1 = () => {
 const arrowFun = () =>  `the multiple of ${3*5}`; // for single line  you dont need to return and {} braces
 // console.log(arrowFun());
 
-// Array
+// Array and first element is called lower index/boundry and last called upper index/boundry
+// var myFriends = new Array;
 
+var myFriends = ['ajay', 'sanjay', 'aman'];
+// console.log(myFriends[myFriends.length - 1]);
+
+// Traversal of an array & length of the array
+
+var myFriends = ['ajay', 'sanjay', 'aman'];
+// console.log(myFriends);
+// console.log(myFriends.length);
+
+// For in loops
