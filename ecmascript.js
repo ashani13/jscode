@@ -14,3 +14,15 @@ function bioData(){
 }
 bioData();
 
+// template literals(template strings)
+var tableNum = 12;
+for (let fnum = 1; fnum <=10; fnum++) {
+    //  console.log(`${tableNum} * ${fnum} = ${tableNum * fnum} ` );
+}
+
+// default params
+
+function multi(a,b=6){
+    return a*b;
+}
+console.log(multi(5));
