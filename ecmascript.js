@@ -23,6 +23,16 @@ for (let fnum = 1; fnum <=10; fnum++) {
 // default params
 
 function multi(a,b=6){
-    return a*b;
+    return `the multiple of ${a*b}`;
 }
-console.log(multi(5));
+// console.log(multi(5));
+
+// Arrow function(fat arrow fn)
+const arrowFun1 = () => {
+    return `the multiple of ${3*5}`;
+}
+const arrowFun = () =>  `the multiple of ${3*5}`; // for single line  you dont need to return and {} braces
+// console.log(arrowFun());
+
+// Array
+
