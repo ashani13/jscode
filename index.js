@@ -147,4 +147,14 @@ function sum() {
     let total = a+b;
     return total;
 }
-console.log(sum()); 
+// console.log(sum()); 
+
+// functions params and arg
+// parms are defined in the func and arg are values pass in the calling time
+
+function sumArg(a, b) {
+    // let a = 10; let b = 12;
+    let total = a+b;
+    return total;
+}
+// console.log(sumArg(20, 30));
