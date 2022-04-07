@@ -109,3 +109,20 @@ switch (area ) {
         // console.log("area not matched");
         break;
 }
+
+// while loops
+
+var inc = 0;
+// block scope means if condition true then only enter in the condition
+while (inc <= 10) {
+    // console.log(inc);
+    inc++;
+}
+
+// do while loops first time you will get value if condition is false
+var inc1 = 0;
+do {
+    console.log(inc1);
+    inc1++;
+   
+} while (inc1 <= 10);
