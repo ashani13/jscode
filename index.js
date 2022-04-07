@@ -59,5 +59,23 @@ a = a+b;
 b = a -b ;
 a = a - b;
 
-console.log(a);
-console.log(b);
+// console.log(a);
+// console.log(b);
+
+// find leap year
+const year = 2100;
+debugger;
+if(year% 4 === 0){
+    if(year% 100 === 0){
+        if(year% 400 === 0){
+            console.log("leap year");
+        }else{
+            console.log("Not leap year");
+        }
+    }else{
+        console.log("leap year");
+    }
+}else{
+    console.log("Not leap year");
+
+}
