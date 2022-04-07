@@ -41,5 +41,23 @@ function repeatedChars(str){
 
 // console.log(repeatedChars('aaaaaaasdsadsadasdasdaa'));
 
+// swap two numbers
+var a = 10;
+var b = 12;
+var  c ;
+c = a;
+a = b;
+b = c;
 
 
+// swap two numbers without third variable
+
+var a = 10;
+var b = 12;
+
+a = a+b;
+b = a -b ;
+a = a - b;
+
+console.log(a);
+console.log(b);
