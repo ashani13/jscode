@@ -68,14 +68,44 @@ debugger;
 if(year% 4 === 0){
     if(year% 100 === 0){
         if(year% 400 === 0){
-            console.log("leap year");
+            // console.log("leap year");
         }else{
-            console.log("Not leap year");
+            // console.log("Not leap year");
         }
     }else{
-        console.log("leap year");
+        // console.log("leap year");
     }
 }else{
-    console.log("Not leap year");
+    // console.log("Not leap year");
 
+}
+
+
+// ternary operator
+
+// it take 3 operands and this is only operator take 3 operands
+// it is shortand version of if else statements
+var age = 116;
+age  = ( age >= 18 ) ? true: "must be 18 for vote.";
+// console.log(age);
+
+
+// switch statement
+
+// find area of circle, trigle and rectangle
+var area = "triangle";
+var  l = 5; var b = 5; var r = 3; var PI = 3.142;
+switch (area ) {
+    case "circle":
+        // console.log("area of circle"+ PI*r**2);
+        break;
+    case "triangle":
+        // console.log("area of triangle"+ (l*b/2));
+        break;
+    case "circle":
+        // console.log("area of circle"+ (l*b));
+        break;
+    default:
+        // console.log("area not matched");
+        break;
 }
