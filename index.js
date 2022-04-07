@@ -1,11 +1,11 @@
 var myName = ""+"";
-console.log(typeof(myName))
+// console.log(typeof(myName))
 
 var myAge = true-true;
-console.log(typeof(myAge))
+// console.log(typeof(myAge))
 
 function myage(){
-    console.log('hell');
+    // console.log('hell');
 }
 myage();
 
@@ -158,3 +158,22 @@ function sumArg(a, b) {
     return total;
 }
 // console.log(sumArg(20, 30));
+
+// function expressions
+
+function fnExpression(a, b){
+    return function(){
+        return total = a+b;
+    }
+    
+}
+let fnExp = fnExpression(20,53);
+//  console.log(fnExp());
+
+// anonymous func exp
+
+let funExp = function(a,b){
+    return total = a+b;
+}
+console.log(funExp(5,60));
+
