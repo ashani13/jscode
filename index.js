@@ -120,9 +120,23 @@ while (inc <= 10) {
 }
 
 // do while loops first time you will get value if condition is false
-var inc1 = 0;
+var inc1 = 20;
 do {
-    console.log(inc1);
+    // console.log(inc1);
     inc1++;
    
 } while (inc1 <= 10);
+
+// for loops
+
+for (let fnum = 0; fnum <10; fnum++) {
+    // console.log(fnum);
+    
+}
+// table program
+var tableNum = 12;
+for (let fnum = 1; fnum <=10; fnum++) {
+    // console.log(tableNum+'*'+fnum+'='+(tableNum*fnum));
+    
+}
+
