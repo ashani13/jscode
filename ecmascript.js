@@ -42,8 +42,26 @@ var myFriends = ['ajay', 'sanjay', 'aman'];
 
 // Traversal of an array & length of the array
 
-var myFriends = ['ajay', 'sanjay', 'aman'];
+var myFriend = ['ajay', 'sanjay', 'aman'];
 // console.log(myFriends);
 // console.log(myFriends.length);
 
-// For in loops
+// For in loops to find the index number of elements
+
+for(let i =0; i < myFriend.length; i++ ){
+    // console.log(myFriend[i]);
+}
+for(let elements in myFriend){
+    // console.log(elements);
+}
+
+// for of loop it return the values of the array
+for(let elements of myFriend){
+    // console.log(elements);
+}
+
+// foreach loops
+
+myFriend.forEach(function(element, index, array){
+    console.log(element);
+});
