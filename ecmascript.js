@@ -63,5 +63,15 @@ for(let elements of myFriend){
 // foreach loops
 
 myFriend.forEach(function(element, index, array){
-    console.log(element);
+    // console.log(element);
 });
+
+myFriend.forEach((element, index, array) => {
+    // console.log(element);
+});
+
+// searching in fiter an array
+
+// Array.prototype.indexOf() if element not found then return -1
+
+console.log(myFriend.indexOf("aman", 1));
