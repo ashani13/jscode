@@ -98,7 +98,7 @@ const findElemUsingFilter = price.filter((curntVal) => curntVal > 90);
 
 
 // Array.prototype.sort()
-const month = ['March', 'Jan', 'Feb', 'Oct']
+const month = ['March', 'Jan', 'feb', 'Oct']
 // console.log(month.sort());
 // console.log(price.sort()); its bug sort method only work with string not sorting numbers
 
@@ -123,4 +123,11 @@ const month = ['March', 'Jan', 'Feb', 'Oct']
 //  Array.prototype.shift() remove first element of array
 // console.log(month);
 // console.log(month.shift());
+// console.log(month);
+
+//  Array.prototype.splice()  use to add and delete
+
+const newMonth = month.splice(month.length, 0, "Dec");
+//  console.log(month);
+const changeMonth = month.splice(2, 1, "Feb");
 // console.log(month);
