@@ -129,5 +129,27 @@ const month = ['March', 'Jan', 'feb', 'Oct']
 
 const newMonth = month.splice(month.length, 0, "Dec");
 //  console.log(month);
-const changeMonth = month.splice(2, 1, "Feb");
-// console.log(month);
+const indexNumber = month.indexOf('feb');
+if(indexNumber != -1){
+    const changeMonth = month.splice(indexNumber, 1, "Feb");
+    // console.log(month);
+}else{
+    // console.log("Data not Found");
+}
+
+// map() method and it return new array and not modify original array and foreach modate the original array
+//  it has ability of chainable like u can apply other method
+const mapMethod = price.map((curntVal) => curntVal == 78);
+
+const array1 = [1, 4, 9, 16, 25];
+// console.log(mapMethod);
+const newArr = array1.map((curntVal , index, arr) => {
+    return `The ${index} of the value of ${curntVal} of ${arr}`;
+});
+
+const newArr1 = array1.forEach((curntVal , index, arr) => {
+    return `The ${index} of the value of ${curntVal} of ${arr}`;
+});
+// console.log(newArr1);
+
+
