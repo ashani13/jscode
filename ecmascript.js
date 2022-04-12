@@ -83,7 +83,7 @@ myFriend.forEach((element, index, array) => {
 
 // Array.prototype.find() and findIndex()
 // when not matched find() return undefined and findIndex() returns -1
-const price = [2,3,4,56,78,90];
+const price = [2,3,4,561,78,90];
 // const findElem = price.find((curntVal, index, array)=>{
 //     return curntVal < 78;
 
@@ -92,6 +92,18 @@ const findElems = price.findIndex((curntVal) => curntVal <1);
 // console.log(findElems);
 
 // array.prototype.filter()
+// return array of all data match to condition
+const findElemUsingFilter = price.filter((curntVal) => curntVal > 90);
+// console.log(findElemUsingFilter);
 
-const findElemUsingFilter = price.filter((curntVal) => curntVal < 90);
-console.log(findElemUsingFilter);
+
+// Array.prototype.sort()
+const month = ['March', 'Jan', 'Feb', 'Oct']
+// console.log(month.sort());
+// console.log(price.sort()); its bug sort method only work with string not sorting numbers
+
+// CRUD operation
+
+//  Array.prototype.push() push the value at the end of the array
+month.push("July")
+// console.log(month);
