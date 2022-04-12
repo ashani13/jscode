@@ -74,4 +74,24 @@ myFriend.forEach((element, index, array) => {
 
 // Array.prototype.indexOf() if element not found then return -1
 
-console.log(myFriend.indexOf("aman", 1));
+// console.log(myFriend.indexOf("aman", 1));
+
+// last index lastIndexOf()
+
+// Array.prototype.includes()
+// console.log(myFriend.includes('aman'));
+
+// Array.prototype.find() and findIndex()
+// when not matched find() return undefined and findIndex() returns -1
+const price = [2,3,4,56,78,90];
+// const findElem = price.find((curntVal, index, array)=>{
+//     return curntVal < 78;
+
+// });
+const findElems = price.findIndex((curntVal) => curntVal <1);
+// console.log(findElems);
+
+// array.prototype.filter()
+
+const findElemUsingFilter = price.filter((curntVal) => curntVal < 90);
+console.log(findElemUsingFilter);
