@@ -105,5 +105,22 @@ const month = ['March', 'Jan', 'Feb', 'Oct']
 // CRUD operation
 
 //  Array.prototype.push() push the value at the end of the array
-month.push("July")
+// month.push("July")
+// console.log(month);
+
+//  Array.prototype.unshift() push the value at the first of the array
+// price.unshift(5);
+// console.log(price)
+
+//  Array.prototype.pop() remove last element of array
+// console.log(month);
+// console.log(month.pop());
+// console.log(month);
+// console.log(month.pop());
+// console.log(month);
+
+
+//  Array.prototype.shift() remove first element of array
+// console.log(month);
+// console.log(month.shift());
 // console.log(month);
