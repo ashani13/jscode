@@ -94,7 +94,7 @@ const findElems = price.findIndex((curntVal) => curntVal <1);
 // array.prototype.filter()
 // return array of all data match to condition
 const findElemUsingFilter = price.filter((curntVal) => curntVal > 90);
-// console.log(findElemUsingFilter);
+//  console.log(findElemUsingFilter);
 
 
 // Array.prototype.sort()
@@ -152,4 +152,24 @@ const newArr1 = array1.forEach((curntVal , index, arr) => {
 });
 // console.log(newArr1);
 
+
+// Sol 1
+const array2 = [25,36,49,64,81];
+
+let arrSqr = array2.map((curntVal) =>{
+ return Math.sqrt(curntVal);
+})
+// console.log(arrSqr);
+
+// multiply by 2 and return only value greater than 10
+const array23 = [2,3,4,6,8];
+
+let arrMultipleByTwo = array23.map((curntVal) =>{
+    return curntVal * 2;
+   }).filter( (curntVal) => {
+       return curntVal > 10;
+   })
+//    console.log(arrMultipleByTwo);
+
+// reduce method
 
