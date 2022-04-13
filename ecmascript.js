@@ -168,8 +168,30 @@ let arrMultipleByTwo = array23.map((curntVal) =>{
     return curntVal * 2;
    }).filter( (curntVal) => {
        return curntVal > 10;
-   })
-//    console.log(arrMultipleByTwo);
+   }).reduce((accumulator,curntVal, inde, arr) => { 
+    return accumulator*=curntVal;
+});
+    // console.log(arrMultipleByTwo);
 
 // reduce method
+
+//  take 4 arguments
+
+let reduceArray = [5,6,2];
+let sumUsingReduce = reduceArray.reduce((accumulator,curntVal, inde, arr) => { 
+    return accumulator+=curntVal;
+}, 7);
+
+//   console.log(sumUsingReduce);
+// accumulator storef first value of array
+let items = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+  ];
+
+let flatrArray = items.reduce((accumulator, curntVal, index, arr) => {
+    return accumulator.concat(curntVal);
+})
+// console.log(flatrArray);
 
