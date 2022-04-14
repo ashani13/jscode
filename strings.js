@@ -37,6 +37,24 @@ let myActualTweets = tweets.slice(0, 280);
 
 
 //  Replacing string content replace()
-const myBioData = "I am ashani kapoor learning js";
+const myBioData = " I am ashani kapoor learning js";
 
 // console.log(myBioData.replace("ashani", "Ashani"));
+
+//  charAt() method and charCodeAt()
+// console.log(myBioData.charAt(2));
+let lastChars = myBioData.length-1;
+// console.log(myBioData.charCodeAt(lastChars));
+
+// Property Access
+// console.log(myBioData[2]);
+
+
+//  trim()
+
+// console.log(myBioData.trim());
+
+//  split() convert string to array
+
+console.log(myBioData.split(','));
+console.log(myBioData.split(' '));
